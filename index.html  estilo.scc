@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset=" UTF-8"/>
+        <Title>www.Medejean.com</Title> 
+        <meta name="description" conecte="Medejean es una marca de ropa de medellin para el mundo"/>
+        <meta name="author" content="Alejandro de jesus enao, emmanuel lopez, Reynaldo fabregas"/>
+        <meta name="keywords" content="Medejean, Testiles medejean, Medellin para el mundo">
+        <link rel="stylesHeet" href="estilo.css">
+    
+    </head>
+    <body>
+       
+    <div class="agrupar">
+    
+            <header class="cabecera">
+                <h1>MEDEJEAN-ARTE Y CULTURA:</h1>
+            <h2>Desde medellin para el mundo:</h2>
+        </header>
+            <nav class="menu">
+            <ul>
+                <li>ayuda</li>
+                <li>comentarios</li>
+                <li>informacion</li>
+            </ul>    
+            </nav>
+            
+            <section class="seccion">
+                <article>
+                    <hgroup>
+                        <time datetime="28/10/2022"> Publicado y editado el 28/10/2022</time>
+                        <h1>Articulo 1:</h1>
+                        <h2>¿Que es Medejean?</h2>
+                    </hgroup>
+                    
+                    <img src="logo, medejean.jpg" />
+                    <p class="green">Medejean es una marca de ropa para todo tipo de persona que este interesada en
+                        el producto</p>
+                        <p>a continuacion te ofresemos unas muestras de los productos que ofresemos.</p>
+                        <footer>
+                            <p>Comentarios (0)</p>
+                        </footer>
+                </article>
+                
+                <article>
+                    <hgroup>
+                        <time datetime="28/10/2022"> Publicado y editado el 28/10/2022</time>
+                        <h1>Articulo 2:</h1>
+                        <h2>¿De donde surje medejean?</h2>
+                    </hgroup>
+                    
+                    <p>medejean proviene de la palabra MDELLIN, solo que se le cambio el nmbre a MEDEJEAN
+                        con referencia Jean (pantalon) ya que medelin es la capital de la moda colombiana
+                        Históricamente, esta ciudad se ha caracterizado por ser una de las urbes que más 
+                        promueve la industria textil y de confección en Colombia.
+                    </p>
+        
+                    <footer>
+                        <p>Comentarios (0)</p>
+                    </footer>
+                </article>
+            </section>
+    
+            <aside class="columna">
+                <blockquote cite="http://google.com">
+                    Autores y 
+                editores:
+                Izasa Josemigel,
+                Lopez emmanuel,
+                Fabregas Reynaldo.
+                </blockquote>
+    
+                <blockquote cite="http://google.com">
+                ultimas actulizaciones:22/11/2022
+                </blockquote>
+
+                <address>
+                    <a href="http://google.com">Mira los productos disponibles</a>
+                </address>
+
+            </aside>
+            <footer class="pie">
+                Derechos reservados 2020-2022
+            </footer>
+            
+        </div>
+      
+    </body>
+</html>
+
+h1 {
+    font-size: 30PX;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+h2 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+header,section,footer, aside, nav, article {
+    display: block;
+}
+
+body {
+    text-align: center;
+    background: black;
+}
+.agrupar {
+    width: 960px;
+    border: 1px solid black;
+    margin: 15px auto;
+    background: white;
+}
+.cabecera {
+    background: #a7a7a7;
+    border: 1px solid black;
+    padding: 1px;
+}
+.cabecera h1 {
+    text-align: left;
+}
+
+.menu {
+    background: #8fe3ff;
+    padding:  1px;
+    text-align: left;
+}
+
+.menu li {
+    list-style: none;
+    padding: 1px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+
+.seccion {
+    margin: 20px;
+    width: 600px;
+    float: left;
+}
+
+time {
+    color:blue;
+}
+
+article {
+    background: #ffdccb;
+    border: 1px solid #999;
+    margin-bottom: 15px;
+}
+
+article footer {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.columna {
+    width: 300px;
+    float: left;
+    margin: 20px 0;
+}
+
+.columna blockquote {
+    border: 1px solid black;
+    padding: 40px;
+    background: #ffd5c8;
+    margin-bottom: 15px;
+}
+
+.pie {
+    clear: both;
+    padding: 15px;
+    background: #a7a7a7;
+}
+
+img {
+    width: 120px;
+    display: block;
+    margin: 20px auto;
+}
